@@ -13,9 +13,9 @@ let url ='https://sujeitoprogramador.com/rn-api/?api=posts';
 
 fetch(url)
    .then((r)=>r.json())
-   .then((jsonGerado)=>{
-      //console.log(jsonGerado)
-      setNutri((jsonGerado))
+   .then((json)=>{
+      //console.log(json)
+      setNutri((json))
    })
 
 }
